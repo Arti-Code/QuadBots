@@ -1,0 +1,36 @@
+EVOBOTS:
+    v0.1:
+        ✔ initialization
+        ✔ main loop template
+        ✔ agengt class
+        ✔ body class (collisions, display)
+        ✔ vision class (detection, display)
+        ✔ wide based vision                                @today
+        ☐ input position                                   @low
+        ☐ input detected agent (dist, ang, size)           @low
+        ☐ input detected resource (dist, ang, type)        @low
+        ☐ jaw class (eat, bite)                            @high
+        ☐ legs class (move, turn)                          @high
+        ☐ body sensor class (pain, touch)
+        ☐ mouse events
+        ✔ key events
+        ✔ health (with display)
+        ✔ energy (with display)
+        ☐ input pain, touch
+        ☐ input health, energy
+        ✔ death 
+        ☐ killing
+        ☐ reproduction
+        ☐ * implement >>>NEUROArt2<<< *                    @critical
+        ✔ camera movement                                  @high
+        ✔ camera screen size                               @high
+        ☐ camera zoomin and zoomout                        @high
+        ☐ mouse object selection                           @today
+        ☐ display selected obiect informations             @today
+        ✔ draw and phisics timing
+        ✔ world edges
+
+    issues:
+        ✔ fix "close" button [x] to quit application       @low
+        ✔ fix hiding edges                                 @low
+        ✔ fix vision edges alfa, colors
